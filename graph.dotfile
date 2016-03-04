@@ -1,0 +1,19 @@
+digraph main_graph {
+labeljust=r;
+labelloc=b;
+rankdir=LR;
+ranksep=1;
+topic1 [label="Topic #1", shape=square, texlbl=topic1];
+topic2 [label="Topic #2", shape=square, texlbl=topic2];
+subgraph cluster_plate_document {
+fontsize=24;
+label=Document;
+word [label=Word, texlbl="\word"];
+word2 [label=Word, texlbl="\word"];
+word3 [label=Word, texlbl="\word"];
+}
+
+topic1 -> word;
+topic1 -> word2;
+topic2 -> word3;
+}

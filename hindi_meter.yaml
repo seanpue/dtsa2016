@@ -1,0 +1,412 @@
+!!python/object:networkx.classes.digraph.DiGraph
+adj: &id031
+  0:
+    1: &id032 {weight: 0}
+    6: &id039 {weight: 1}
+    15: &id050 {weight: 2}
+    24: &id065 {weight: 3}
+    32: &id075 {weight: 4}
+  1:
+    2: &id033
+      bad_combos: &id001 !!python/tuple
+      - &id008 !!python/tuple [l_bcsc, l_v]
+      - &id010 !!python/tuple [l_bsc, l_v]
+      - &id009 !!python/tuple [l_bcsc, l_z]
+      - !!python/tuple [l_bcsc, l_v]
+      - &id005 !!python/tuple [l_csc, l_z]
+      - &id013 !!python/tuple [l_cbsc, l_v]
+      - &id006 !!python/tuple [l_csc, l_v]
+      weight: 0
+    3: &id036
+      bad_combos: &id002 !!python/tuple
+      - &id007 !!python/tuple [l_bcsc, s_v<b>]
+      - &id011 !!python/tuple [l_bsc, s_v<b>]
+      - &id012 !!python/tuple [l_bcsc, s_z]
+      - &id004 !!python/tuple [l_csc, s_z]
+      - &id003 !!python/tuple [l_csc, s_v<b>]
+      weight: 0
+  2:
+    2: &id034
+      bad_combos: *id001
+      weight: 0
+    3: &id037
+      bad_combos: *id002
+      weight: 0
+    38: &id084
+      bad_combos: &id028 !!python/tuple
+      - *id003
+      - &id014 !!python/tuple [s_c, s_v<b>]
+      - &id024 !!python/tuple [s_c, l_v]
+      - *id004
+      - &id026 !!python/tuple [s_c, l_z]
+      - *id005
+      - &id019 !!python/tuple [s_cs, s_c<h+wb>]
+      - &id017 !!python/tuple [s_bcs, s_c]
+      - &id016 !!python/tuple [s_c, s_z]
+      - &id015 !!python/tuple [s_c, s_c<h+wb>]
+      - *id006
+      - &id021 !!python/tuple [s_cs, s_c]
+      - *id007
+      - *id008
+      - &id020 !!python/tuple [s_bs, s_c]
+      - &id023 !!python/tuple [s_cs, s_c<h+wb>o]
+      - *id009
+      - &id022 !!python/tuple [s_c, s_v<ii+z>z]
+      - &id027 !!python/tuple [s_cs, l_c<h+wb>o]
+      - *id010
+      - *id011
+      - &id025 !!python/tuple [s_c, l_v<ii+z>z]
+      - &id018 !!python/tuple [s_bcs, s_c<h+wb>]
+      - *id012
+      - *id013
+      weight: 0
+  3:
+    4: &id038
+      bad_combos: &id030 !!python/tuple
+      - *id014
+      - *id015
+      - *id016
+      - *id017
+      - *id018
+      - *id019
+      - *id020
+      - *id021
+      - *id022
+      - *id023
+      weight: 0
+  4:
+    2: &id035
+      bad_combos: &id029 !!python/tuple
+      - *id024
+      - *id025
+      - *id026
+      - *id027
+      weight: 0
+    38: &id085
+      bad_combos: *id028
+      weight: 0
+  6:
+    7: &id040
+      bad_combos: *id002
+      weight: 0
+  7:
+    8: &id041
+      bad_combos: *id029
+      weight: 0
+  8:
+    9: &id042
+      bad_combos: *id002
+      weight: 0
+  9:
+    10: &id043
+      bad_combos: *id029
+      weight: 0
+  10:
+    11: &id044
+      bad_combos: *id001
+      weight: 0
+    12: &id047
+      bad_combos: *id002
+      weight: 0
+  11:
+    11: &id045
+      bad_combos: *id001
+      weight: 0
+    12: &id048
+      bad_combos: *id002
+      weight: 0
+    38: &id086
+      bad_combos: *id028
+      weight: 0
+  12:
+    13: &id049
+      bad_combos: *id030
+      weight: 0
+  13:
+    11: &id046
+      bad_combos: *id029
+      weight: 0
+    38: &id087
+      bad_combos: *id028
+      weight: 0
+  15:
+    16: &id051
+      bad_combos: *id001
+      weight: 0
+    17: &id055
+      bad_combos: *id002
+      weight: 0
+    19: &id059
+      bad_combos: *id002
+      weight: 0
+  16:
+    16: &id052
+      bad_combos: *id001
+      weight: 0
+    17: &id056
+      bad_combos: *id002
+      weight: 0
+    19: &id060
+      bad_combos: *id002
+      weight: 0
+    38: &id088
+      bad_combos: *id028
+      weight: 0
+  17:
+    18: &id058
+      bad_combos: *id030
+      weight: 0
+  18:
+    16: &id053
+      bad_combos: *id029
+      weight: 0
+    38: &id089
+      bad_combos: *id028
+      weight: 0
+  19:
+    20: &id062
+      bad_combos: *id029
+      weight: 0
+  20:
+    21: &id063
+      bad_combos: *id002
+      weight: 0
+  21:
+    22: &id064
+      bad_combos: *id029
+      weight: 0
+  22:
+    16: &id054
+      bad_combos: *id001
+      weight: 0
+    17: &id057
+      bad_combos: *id002
+      weight: 0
+    19: &id061
+      bad_combos: *id002
+      weight: 0
+    38: &id090
+      bad_combos: *id028
+      weight: 0
+  24:
+    25: &id066
+      bad_combos: *id029
+      weight: 0
+  25:
+    26: &id067
+      bad_combos: *id002
+      weight: 0
+  26:
+    27: &id068
+      bad_combos: *id029
+      weight: 0
+  27:
+    28: &id069
+      bad_combos: *id001
+      weight: 0
+    29: &id072
+      bad_combos: *id002
+      weight: 0
+  28:
+    28: &id070
+      bad_combos: *id001
+      weight: 0
+    29: &id073
+      bad_combos: *id002
+      weight: 0
+    38: &id091
+      bad_combos: *id028
+      weight: 0
+  29:
+    30: &id074
+      bad_combos: *id030
+      weight: 0
+  30:
+    28: &id071
+      bad_combos: *id029
+      weight: 0
+    38: &id092
+      bad_combos: *id028
+      weight: 0
+  32:
+    33: &id076
+      bad_combos: *id030
+      weight: 0
+  33:
+    34: &id077
+      bad_combos: *id029
+      weight: 0
+  34:
+    35: &id078
+      bad_combos: *id001
+      weight: 0
+    36: &id081
+      bad_combos: *id002
+      weight: 0
+  35:
+    35: &id079
+      bad_combos: *id001
+      weight: 0
+    36: &id082
+      bad_combos: *id002
+      weight: 0
+    38: &id093
+      bad_combos: *id028
+      weight: 0
+  36:
+    37: &id083
+      bad_combos: *id030
+      weight: 0
+  37:
+    35: &id080
+      bad_combos: *id029
+      weight: 0
+    38: &id094
+      bad_combos: *id028
+      weight: 0
+  38:
+    39: &id095
+      bad_combos: *id028
+      weight: 0
+  39: {}
+edge: *id031
+graph: {}
+node:
+  0: {color: black, label: 0.start, shape: circle, type: '0'}
+  1: {color: black, label: !!python/unicode '1.=', shape: circle, type: '='}
+  2: {color: black, label: !!python/unicode '2.=', shape: circle, type: '='}
+  3: {color: black, label: !!python/unicode '3.-', shape: circle, type: '-'}
+  4: {color: black, label: !!python/unicode '4.-', shape: circle, type: '-'}
+  6: {color: black, label: !!python/unicode '6.=', shape: circle, type: '='}
+  7: {color: black, label: !!python/unicode '7.-', shape: circle, type: '-'}
+  8: {color: black, label: !!python/unicode '8.=', shape: circle, type: '='}
+  9: {color: black, label: !!python/unicode '9.-', shape: circle, type: '-'}
+  10: {color: black, label: !!python/unicode '10.=', shape: circle, type: '='}
+  11: {color: black, label: !!python/unicode '11.=', shape: circle, type: '='}
+  12: {color: black, label: !!python/unicode '12.-', shape: circle, type: '-'}
+  13: {color: black, label: !!python/unicode '13.-', shape: circle, type: '-'}
+  15: {color: black, label: !!python/unicode '15.=', shape: circle, type: '='}
+  16: {color: black, label: !!python/unicode '16.=', shape: circle, type: '='}
+  17: {color: black, label: !!python/unicode '17.-', shape: circle, type: '-'}
+  18: {color: black, label: !!python/unicode '18.-', shape: circle, type: '-'}
+  19: {color: black, label: !!python/unicode '19.-', shape: circle, type: '-'}
+  20: {color: black, label: !!python/unicode '20.=', shape: circle, type: '='}
+  21: {color: black, label: !!python/unicode '21.-', shape: circle, type: '-'}
+  22: {color: black, label: !!python/unicode '22.=', shape: circle, type: '='}
+  24: {color: black, label: !!python/unicode '24.-', shape: circle, type: '-'}
+  25: {color: black, label: !!python/unicode '25.=', shape: circle, type: '='}
+  26: {color: black, label: !!python/unicode '26.-', shape: circle, type: '-'}
+  27: {color: black, label: !!python/unicode '27.=', shape: circle, type: '='}
+  28: {color: black, label: !!python/unicode '28.=', shape: circle, type: '='}
+  29: {color: black, label: !!python/unicode '29.-', shape: circle, type: '-'}
+  30: {color: black, label: !!python/unicode '30.-', shape: circle, type: '-'}
+  32: {color: black, label: !!python/unicode '32.-', shape: circle, type: '-'}
+  33: {color: black, label: !!python/unicode '33.-', shape: circle, type: '-'}
+  34: {color: black, label: !!python/unicode '34.=', shape: circle, type: '='}
+  35: {color: black, label: !!python/unicode '35.=', shape: circle, type: '='}
+  36: {color: black, label: !!python/unicode '36.-', shape: circle, type: '-'}
+  37: {color: black, label: !!python/unicode '37.-', shape: circle, type: '-'}
+  38: {color: red, ending: true, label: !!python/unicode '38.=', type: '='}
+  39: {color: red, ending: true, label: !!python/unicode '39.-', type: '-'}
+pred:
+  0: {}
+  1:
+    0: *id032
+  2:
+    1: *id033
+    2: *id034
+    4: *id035
+  3:
+    1: *id036
+    2: *id037
+  4:
+    3: *id038
+  6:
+    0: *id039
+  7:
+    6: *id040
+  8:
+    7: *id041
+  9:
+    8: *id042
+  10:
+    9: *id043
+  11:
+    10: *id044
+    11: *id045
+    13: *id046
+  12:
+    10: *id047
+    11: *id048
+  13:
+    12: *id049
+  15:
+    0: *id050
+  16:
+    15: *id051
+    16: *id052
+    18: *id053
+    22: *id054
+  17:
+    15: *id055
+    16: *id056
+    22: *id057
+  18:
+    17: *id058
+  19:
+    15: *id059
+    16: *id060
+    22: *id061
+  20:
+    19: *id062
+  21:
+    20: *id063
+  22:
+    21: *id064
+  24:
+    0: *id065
+  25:
+    24: *id066
+  26:
+    25: *id067
+  27:
+    26: *id068
+  28:
+    27: *id069
+    28: *id070
+    30: *id071
+  29:
+    27: *id072
+    28: *id073
+  30:
+    29: *id074
+  32:
+    0: *id075
+  33:
+    32: *id076
+  34:
+    33: *id077
+  35:
+    34: *id078
+    35: *id079
+    37: *id080
+  36:
+    34: *id081
+    35: *id082
+  37:
+    36: *id083
+  38:
+    2: *id084
+    4: *id085
+    11: *id086
+    13: *id087
+    16: *id088
+    18: *id089
+    22: *id090
+    28: *id091
+    30: *id092
+    35: *id093
+    37: *id094
+  39:
+    38: *id095
+succ: *id031

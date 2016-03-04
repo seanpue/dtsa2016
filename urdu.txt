@@ -1,0 +1,419 @@
+---
+rules:
+  '*': '*'
+  --: \N{ARABIC FULL STOP}
+  "\n": "\n"
+  "(": "("
+  ": <wb>": ":"
+  '-': '-'
+  '"': '"'
+  ". <wb>": "."
+  ' ': ' '
+  "'": ""
+#  "\0": ''
+  '!': '!'
+  _: ''
+  "\t": "\t"
+  "\r": "\r"
+  ((: \N{ARABIC LETTER AIN}
+  (( ((: \N{ARABIC LETTER AIN}\N{ARABIC SHADDA}
+  ): )
+  )): \N{ARABIC LETTER YEH WITH HAMZA ABOVE}
+  a )) a: \N{ARABIC LETTER ALEF WITH HAMZA ABOVE}
+  ',': \N{ARABIC COMMA}
+  '-': ' '
+  '<wb> - o - <wb>': \N{ARABIC LETTER WAW}
+  '- o -': \N{SPACE}\N{ARABIC LETTER WAW}\N{SPACE}
+  "----": \N{ARABIC FULL STOP}\N{ARABIC FULL STOP}
+  "- e <wb>": \N{ARABIC KASRA}
+  <aa> h - e <wb>: \N{ARABIC LETTER HEH GOAL}\N{ARABIC KASRA}
+  h - e <wb>: \N{ARABIC LETTER HEH GOAL WITH HAMZA ABOVE}
+  <nc_long_vowel> - e <wb>: \N{ARABIC LETTER YEH WITH HAMZA ABOVE}\N{ARABIC LETTER YEH BARREE}
+  .r: \N{ARABIC LETTER REH}
+  .s: \N{ARABIC LETTER SAD}
+  .s .s: \N{ARABIC LETTER SAD}\N{ARABIC SHADDA}
+  .z: \N{ARABIC LETTER DAD}
+  .z .z: \N{ARABIC LETTER DAD}\N{ARABIC SHADDA}
+  /: ''
+  a :n <wb>: \N{ARABIC LETTER ALEF}\N{ARABIC FATHATAN}
+  :t: \N{ARABIC LETTER TAH}
+  :t :t: \N{ARABIC LETTER TAH}\N{ARABIC SHADDA}
+  :z: \N{ARABIC LETTER ZAH}
+  :z :z: \N{ARABIC LETTER ZAH}\N{ARABIC SHADDA}
+  ;: \N{ARABIC SEMICOLON}
+  ;aa <wb>: \N{ARABIC LETTER FARSI YEH}\N{ARABIC LETTER SUPERSCRIPT ALEF}
+  ;aa: \N{ARABIC LETTER SUPERSCRIPT ALEF}
+  ;d: \N{ARABIC LETTER DDAL}
+  ;d ;d: \N{ARABIC LETTER DDAL}\N{ARABIC SHADDA}
+  ;d ;dh: \N{ARABIC LETTER DDAL}\N{ARABIC SHADDA}\N{ARABIC LETTER HEH DOACHASHMEE}
+  ;dh: \N{ARABIC LETTER DDAL}\N{ARABIC LETTER HEH DOACHASHMEE}
+  ;e: ''
+  ;g: \N{ARABIC LETTER GHAIN}
+  ;g ;g: \N{ARABIC LETTER GHAIN}\N{ARABIC SHADDA}
+  ;h: \N{ARABIC LETTER HAH}
+  ;h ;h: \N{ARABIC LETTER HAH}\N{ARABIC SHADDA}
+  ;m: \N{ARABIC LETTER NOON}
+  ;m <wb>: \N{ARABIC LETTER NOON GHUNNA}
+  ;n: \N{ARABIC LETTER NOON}
+  ;n <wb>: \N{ARABIC LETTER NOON GHUNNA}
+  ;r: \N{ARABIC LETTER RREH}
+  ;r ;r: \N{ARABIC LETTER RREH}\N{ARABIC SHADDA}
+  ;rh: \N{ARABIC LETTER RREH}\N{ARABIC LETTER HEH DOACHASHMEE}
+  ;s: \N{ARABIC LETTER THEH}
+  ;s ;s: \N{ARABIC LETTER THEH}\N{ARABIC SHADDA}
+  ;t: \N{ARABIC LETTER TTEH}
+  ;t ;t: \N{ARABIC LETTER TTEH}\N{ARABIC SHADDA}
+  ;t ;th: \N{ARABIC LETTER TTEH}\N{ARABIC SHADDA}\N{ARABIC LETTER HEH DOACHASHMEE}
+  ;th: \N{ARABIC LETTER TTEH}\N{ARABIC LETTER HEH DOACHASHMEE}
+  ;x: \N{ARABIC LETTER KHAH}
+  ;x ;x: \N{ARABIC LETTER KHAH}\N{ARABIC SHADDA}
+  ;z: \N{ARABIC LETTER THAL}
+  ;z ;z: \N{ARABIC LETTER THAL}\N{ARABIC SHADDA}
+  <short_vowel_a> h <wb>: \N{ARABIC LETTER HEH GOAL}
+  <vowel> )) e g aa <wb>: \N{ARABIC LETTER YEH BARREE}\N{ARABIC HAMZA ABOVE}\N{ARABIC
+    LETTER GAF}\N{ARABIC LETTER ALEF}
+  <vowel> )) e g ii <wb>: \N{ARABIC LETTER YEH BARREE}\N{ARABIC HAMZA ABOVE}\N{ARABIC
+    LETTER GAF}\N{ARABIC LETTER FARSI YEH}
+  <vowel> )) o: \N{ARABIC LETTER WAW}\N{ARABIC HAMZA ABOVE}
+  <vowel> )) uu: \N{ARABIC LETTER WAW}\N{ARABIC HAMZA ABOVE}
+  <wb> ;e: \N{ARABIC LETTER ALEF}
+  <wb> a: \N{ARABIC LETTER ALEF}
+  <wb> ^a: \N{ARABIC LETTER ALEF}\N{ARABIC FATHA}
+  <wb> aa: \N{ARABIC LETTER ALEF}\N{ARABIC MADDAH ABOVE}
+  <consonant> )) aa: \N{ARABIC LETTER ALEF}\N{ARABIC MADDAH ABOVE}
+  <short_vowel_a> )) aa: \N{ARABIC LETTER ALEF}\N{ARABIC MADDAH ABOVE}
+  <wb> ai <wb>: \N{ARABIC LETTER ALEF}\N{ARABIC LETTER YEH BARREE}
+  <wb> ^ai <wb>: \N{ARABIC LETTER ALEF}\N{ARABIC KASRA}\N{ARABIC LETTER YEH BARREE}
+  <wb> ^ai: \N{ARABIC LETTER ALEF}\N{ARABIC KASRA}\N{ARABIC LETTER FARSI YEH}
+  <wb> ai: \N{ARABIC LETTER ALEF}\N{ARABIC LETTER FARSI YEH}
+  <wb> a l -: \N{ARABIC LETTER ALEF}\N{ARABIC LETTER LAM}
+  <wb> au: \N{ARABIC LETTER ALEF}\N{ARABIC LETTER WAW}
+  <wb> ^au: \N{ARABIC LETTER ALEF}\N{ARABIC FATHA}\N{ARABIC LETTER WAW}
+  <wb> e: \N{ARABIC LETTER ALEF}\N{ARABIC LETTER FARSI YEH}
+  <wb> e <wb>: \N{ARABIC LETTER ALEF}\N{ARABIC LETTER YEH BARREE}
+  <wb> ^i: \N{ARABIC LETTER ALEF}\N{ARABIC KASRA}
+  <wb> i: \N{ARABIC LETTER ALEF}
+  <wb> ii: \N{ARABIC LETTER ALEF}\N{ARABIC LETTER FARSI YEH}
+  <wb> ^ii: \N{ARABIC LETTER ALEF}\N{ARABIC KASRA}\N{ARABIC LETTER FARSI YEH}
+  <wb> i l -: \N{ARABIC LETTER LAM}\N{ARABIC LETTER LAM}
+  <wb> k a h <wb>: \N{ARABIC LETTER KEHEH}\N{ARABIC LETTER HEH GOAL}\N{ARABIC LETTER
+    HEH GOAL}
+  <wb> o: \N{ARABIC LETTER ALEF}\N{ARABIC LETTER WAW}
+  <wb> u: \N{ARABIC LETTER ALEF}
+  <wb> ^u: \N{ARABIC LETTER ALEF}\N{ARABIC DAMMA}
+  "<consonant> u ' l - <consonant>": \N{ARABIC LETTER WAW}\N{ARABIC LETTER LAM}
+  <wb> u l -: \N{ARABIC LETTER ALEF}\N{ARABIC LETTER LAM}
+  <wb> uu: \N{ARABIC LETTER ALEF}\N{ARABIC LETTER WAW}
+  <wb> ^uu: \N{ARABIC LETTER ALEF}\N{ARABIC DAMMA}\N{ARABIC LETTER WAW}
+  '?': \N{ARABIC QUESTION MARK}
+  a: ''
+  ^a: \N{ARABIC FATHA}
+  aa: \N{ARABIC LETTER ALEF}
+  ai y: \N{ARABIC LETTER FARSI YEH}\N{ARABIC SHADDA}
+  ai: \N{ARABIC LETTER FARSI YEH}
+  ^ai: \N{ARABIC KASRA}\N{ARABIC LETTER FARSI YEH}
+  ai <wb>: \N{ARABIC LETTER YEH BARREE}
+  ^ai <wb>: \N{ARABIC KASRA}\N{ARABIC LETTER YEH BARREE}
+  au: \N{ARABIC LETTER WAW}
+  ^au: \N{ARABIC FATHA}\N{ARABIC LETTER WAW}
+  b: \N{ARABIC LETTER BEH}
+  '- b a -': \N{ARABIC LETTER BEH}
+  b b: \N{ARABIC LETTER BEH}\N{ARABIC SHADDA}
+  b bh: \N{ARABIC LETTER BEH}\N{ARABIC SHADDA}\N{ARABIC LETTER HEH DOACHASHMEE}
+  bh: \N{ARABIC LETTER BEH}\N{ARABIC LETTER HEH DOACHASHMEE}
+  ch: \N{ARABIC LETTER TCHEH}
+  ch ch: \N{ARABIC LETTER TCHEH}\N{ARABIC SHADDA}
+  ch chh: \N{ARABIC LETTER TCHEH}\N{ARABIC SHADDA}\N{ARABIC LETTER HEH DOACHASHMEE}
+  chh: \N{ARABIC LETTER TCHEH}\N{ARABIC LETTER HEH DOACHASHMEE}
+  d: \N{ARABIC LETTER DAL}
+  d d: \N{ARABIC LETTER DAL}\N{ARABIC SHADDA}
+  d dh: \N{ARABIC LETTER DAL}\N{ARABIC SHADDA}\N{ARABIC LETTER HEH DOACHASHMEE}
+  dh: \N{ARABIC LETTER DAL}\N{ARABIC LETTER HEH DOACHASHMEE}
+  e: \N{ARABIC LETTER FARSI YEH}
+  e ;n g e <wb>: \N{ARABIC LETTER FARSI YEH}\N{ARABIC LETTER NOON GHUNNA} \N{ARABIC LETTER GAF}\N{ARABIC LETTER YEH BARREE}
+  e <wb>: \N{ARABIC LETTER YEH BARREE}
+  e g aa <wb>: \N{ARABIC LETTER YEH BARREE}\N{ARABIC LETTER GAF}\N{ARABIC LETTER ALEF}
+  e g ii <wb>: \N{ARABIC LETTER YEH BARREE}\N{ARABIC LETTER GAF}\N{ARABIC LETTER FARSI
+    YEH}
+  f: \N{ARABIC LETTER FEH}
+  f f: \N{ARABIC LETTER FEH}\N{ARABIC SHADDA}
+  g: \N{ARABIC LETTER GAF}
+  g g: \N{ARABIC LETTER GAF}\N{ARABIC SHADDA}
+  g gh: \N{ARABIC LETTER GAF}\N{ARABIC SHADDA}\N{ARABIC LETTER HEH DOACHASHMEE}
+  gh: \N{ARABIC LETTER GAF}\N{ARABIC LETTER HEH DOACHASHMEE}
+  h: \N{ARABIC LETTER HEH GOAL}
+  h h: \N{ARABIC LETTER HEH GOAL}\N{ARABIC SHADDA}
+  <wb> h u )) aa <wb>: \N{ARABIC LETTER HEH GOAL}\N{ARABIC LETTER WAW}\N{ARABIC LETTER ALEF}
+  <wb> h u )) ii <wb>: \N{ARABIC LETTER HEH GOAL}\N{ARABIC LETTER WAW}\N{ARABIC LETTER YEH WITH HAMZA ABOVE}\N{ARABIC LETTER FARSI YEH}
+  <wb> h u )) e <wb>: \N{ARABIC LETTER HEH GOAL}\N{ARABIC LETTER WAW}\N{ARABIC LETTER YEH WITH HAMZA ABOVE}\N{ARABIC LETTER YEH BARREE}
+  i: ''
+  ^i: \N{ARABIC KASRA}
+  i <wb>: \N{ARABIC LETTER FARSI YEH}
+  ii: \N{ARABIC LETTER FARSI YEH}
+  ^ii: \N{ARABIC KASRA}\N{ARABIC LETTER FARSI YEH}
+  j: \N{ARABIC LETTER JEEM}
+  j j: \N{ARABIC LETTER JEEM}\N{ARABIC SHADDA}
+  j jh: \N{ARABIC LETTER JEEM}\N{ARABIC SHADDA}\N{ARABIC LETTER HEH DOACHASHMEE}
+  jh: \N{ARABIC LETTER JEEM}\N{ARABIC LETTER HEH DOACHASHMEE}
+  k: \N{ARABIC LETTER KEHEH}
+  k k: \N{ARABIC LETTER KEHEH}\N{ARABIC SHADDA}
+  k kh: \N{ARABIC LETTER KEHEH}\N{ARABIC LETTER HEH DOACHASHMEE}
+  kh: \N{ARABIC LETTER KEHEH}\N{ARABIC LETTER HEH DOACHASHMEE}
+  l: \N{ARABIC LETTER LAM}
+  l l: \N{ARABIC LETTER LAM}
+  m: \N{ARABIC LETTER MEEM}
+  m m: \N{ARABIC LETTER MEEM}\N{ARABIC SHADDA}
+  n: \N{ARABIC LETTER NOON}
+  n n: \N{ARABIC LETTER NOON}\N{ARABIC SHADDA}
+  o: \N{ARABIC LETTER WAW}
+  p: \N{ARABIC LETTER PEH}
+  p p: \N{ARABIC LETTER PEH}\N{ARABIC SHADDA}
+  p ph: \N{ARABIC LETTER PEH}\N{ARABIC SHADDA}\N{ARABIC LETTER HEH DOACHASHMEE}
+  ph: \N{ARABIC LETTER PEH}\N{ARABIC LETTER HEH DOACHASHMEE}
+  q: \N{ARABIC LETTER QAF}
+  q q: \N{ARABIC LETTER QAF}\N{ARABIC SHADDA}
+  r: \N{ARABIC LETTER REH}
+  r r: \N{ARABIC LETTER REH}\N{ARABIC SHADDA}
+  s: \N{ARABIC LETTER SEEN}
+  s s: \N{ARABIC LETTER SEEN}\N{ARABIC SHADDA}
+  sh: \N{ARABIC LETTER SHEEN}
+  sh sh: \N{ARABIC LETTER SHEEN}\N{ARABIC SHADDA}
+  t: \N{ARABIC LETTER TEH}
+  t t: \N{ARABIC LETTER TEH}\N{ARABIC SHADDA}
+  t th: \N{ARABIC LETTER TEH}\N{ARABIC SHADDA}\N{ARABIC LETTER HEH DOACHASHMEE}
+  th: \N{ARABIC LETTER TEH}\N{ARABIC LETTER HEH DOACHASHMEE}
+  u: ''
+  ;o: ''
+  ^u: \N{ARABIC DAMMA}
+  uu: \N{ARABIC LETTER WAW}
+  ^uu: \N{ARABIC DAMMA}\N{ARABIC LETTER WAW}
+  v: \N{ARABIC LETTER WAW}
+  v v: \N{ARABIC LETTER WAW}\N{ARABIC SHADDA}
+  w: \N{ARABIC LETTER WAW}
+  y: \N{ARABIC LETTER FARSI YEH}
+  y y: \N{ARABIC LETTER FARSI YEH}\N{ARABIC SHADDA}
+  z: \N{ARABIC LETTER ZAIN}
+  z z: \N{ARABIC LETTER ZAIN}\N{ARABIC SHADDA}
+  zh: \N{ARABIC LETTER JEH}
+  '|': '|'
+  . <wb>: .
+  '[': '['
+  ']': ']'
+tokens:
+#  "\0":
+#  - wb
+  ' ':
+  - wb
+  '!':
+  - wb
+  '''':
+  - letter_break
+  (:
+  - wb
+  _:
+  - hidden_break
+  ((:
+  - ain
+  - consonant
+  (-e):
+  - hidden_izaafat
+  ):
+  - wb
+  )):
+  - consonant
+  "\x0A":
+  - wb
+  ',':
+  - wb
+  '-':
+  - wb
+  --:
+  - wb
+  '----':
+  - wb
+  .r:
+  - consonant
+  .s:
+  - consonant
+  .z:
+  - consonant
+  /:
+  - wb
+  ':':
+  - wb
+  :n:
+  - consonant
+  :t:
+  - consonant
+  :z:
+  - consonant
+  ;:
+  - wb
+  ;aa:
+  - vowel
+  ;d:
+  - consonant
+  ;dh:
+  - consonant
+  ;e:
+  - short_vowel
+  - short_vowel_e
+  ;g:
+  - consonant
+  ;h:
+  - consonant
+  ;m:
+  - vowel_nasal
+  ;n:
+  - consonant
+  ;r:
+  - consonant
+  ;rh:
+  - consonant
+  ;s:
+  - consonant
+  ;t:
+  - consonant
+  ;th:
+  - consonant
+  ;x:
+  - ;x_class
+  - consonant
+  ;z:
+  - consonant
+  '?':
+  - wb
+  "\r":
+  - wb
+  "\n":
+  - wb
+  "\0":
+  - wb
+  '[':
+  - wb
+  ']':
+  - wb
+  a:
+  - short_vowel
+  - short_vowel_a
+  ^a:
+  - short_vowel
+  - short_vowel_a
+  aa:
+  - nc_long_vowel
+  - alef
+  - vowel
+  - aa
+  ai:
+  - vowel
+  ^ai:
+  - vowel
+  au:
+  - vowel
+  - nc_long_vowel
+  ^au:
+  - vowel
+  - nc_long_vowel
+  b:
+  - consonant
+  bh:
+  - consonant
+  ch:
+  - consonant
+  chh:
+  - consonant
+  d:
+  - consonant
+  dh:
+  - consonant
+  e:
+  - vowel
+  f:
+  - consonant
+  g:
+  - consonant
+  gh:
+  - consonant
+  h:
+  - consonant
+  - consonant_h
+  i:
+  - short_vowel
+  ^i:
+  - short_vowel
+  ii:
+  - vowel
+  ^ii:
+  - vowel
+  j:
+  - consonant
+  jh:
+  - consonant
+  k:
+  - consonant
+  kh:
+  - consonant
+  l:
+  - consonant
+  m:
+  - consonant
+  n:
+  - consonant
+  o:
+  - vowel
+  - nc_long_vowel
+  ';o':
+  - short_vowel
+  p:
+  - consonant
+  ph:
+  - consonant
+  q:
+  - consonant
+  r:
+  - consonant
+  s:
+  - consonant
+  sh:
+  - consonant
+  t:
+  - consonant
+  th:
+  - consonant
+  u:
+  - short_vowel
+  ^u:
+  - short_vowel
+  uu:
+  - vowel
+  - nc_long_vowel
+  - uu
+  ^uu:
+  - vowel
+  - nc_long_vowel
+  v:
+  - consonant
+  w:
+  - consonant
+  y:
+  - consonant
+  z:
+  - consonant
+  zh:
+  - consonant
+  '"':
+  - wb
+  '*':
+  - wb
+  '|':
+  - wb
+  "\t":
+  - wb
+  '!':
+  - wb
+  ':':
+  - wb
+  '-':
+  - wb
+  '.':
+  - wb
