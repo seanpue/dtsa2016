@@ -1,0 +1,9 @@
+ipython
+pandas
+networkx
+pydot
+gensim
+jinja2
+numpy
+scipy
+pyyaml

@@ -1,4 +1,5 @@
 Repository for Digital Textualities of South Asia Conference, University of British Columbia
 
-run "git submodule update --init -f" to initialize submodules
-run "./launch" to load Jupyter notebook
+run "pip install -r reqs.txt" to install required python modules
+run "git submodule update --init -f" to initialize git submodules
+run "./launch" to load Jupyter notebook as a webpage
