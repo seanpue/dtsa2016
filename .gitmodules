@@ -1,16 +1,16 @@
 [submodule "graphparser"]
     path = graphparser
-    url = https://github.com/seanpue/graphparser.git
+    url = git://github.com/seanpue/graphparser.git
 [submodule "ghalib-concordance"]
     path = ghalib-concordance
-    url = https://github.com/seanpue/ghalib-concordance.git
+    url = git://github.com/seanpue/ghalib-concordance.git
 [submodule "d3"]
     path = d3
-    url = https://github.com/mbostock/d3.git
+    url = git://github.com/mbostock/d3.git
 [submodule "d3-cloud"]
     path = d3-cloud
-    url = https://github.com/seanpue/d3-cloud.git
+    url = git://github.com/seanpue/d3-cloud.git
 [submodule "reveal.js"]
     path = reveal.js
-    url = https://github.com/hakimel/reveal.js.git
+    url = git://github.com/hakimel/reveal.js.git
  
